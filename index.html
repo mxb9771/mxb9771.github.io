@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-    <title>Home</title>
+    <title>CloudSmartz Application Performance Predictor</title>
   </head>
   <body>
-    <a href="index.html">
-      <img
-        id="page-logo"
-        src="./assets/smartzLogo.jpeg"
-        alt=""
-        class="center"
-      />
-    </a>
-    <h1 class="page-header">Application Performance Predictor</h1>
-    <div id="tab-container">
-      <a class="tab" href="FourUp.html">4Up documents</a>
-      <a class="tab" href="TeamBreakdown.html">Team Breakdown</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <div class="header">
+      <a href="index.html">
+        <img
+          id="page-logo"
+          src="./assets/smartzLogo.jpeg"
+          alt=""
+          class="logo"
+        />
+      </a>
+      <h2 style="transform: translateY(12px)">Application Performance Predictor</h2>
     </div>
+    <div class="container" id="nav-container">
+      <header class="p-3 bg-dark text-white">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link px-2 text-secondary" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-white" href="FourUp.html">4-Ups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-white" href="TeamBreakdown.html">Team Breakdown</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <h2 style="width: 100%; text-align: center; margin: 20px 0">Project Synopsis</h2>
     <div id="synopsis-container">
-      <p>Project Synopsis</p>
       <p>
         The CloudSmartz Application Performance Predictor is a web application
         that will predict the performance viability of a given software
