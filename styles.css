@@ -1,0 +1,39 @@
+.page-header {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.page-heder:hover .page-header::after {
+  content: "Balls";
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 250px;
+  max-width: 525px;
+}
+.center-container {
+  margin: auto;
+}
+.tab {
+  border: 1px solid black;
+  color: cornflowerblue;
+  padding: 10px;
+  font-size: 25px;
+}
+#synopsis-container {
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+#tab-container {
+  text-align: center;
+  margin: 25px;
+}
+td {
+  padding: 5px;
+}
