@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Hello World</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-  <A HREF="FourUp.html">4Up documents</A>
-</body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <title>Home</title>
+  </head>
+  <body>
+    <a href="index.html">
+      <img
+        id="page-logo"
+        src="./assets/smartzLogo.jpeg"
+        alt=""
+        class="center"
+      />
+    </a>
+    <h1 class="page-header">Application Performance Predictor</h1>
+    <div id="tab-container">
+      <a class="tab" href="FourUp.html">4Up documents</a>
+      <a class="tab" href="TeamBreakdown.html">Team Breakdown</a>
+    </div>
+    <div id="synopsis-container">
+      <p>Project Synopsis</p>
+      <p>
+        The CloudSmartz Application Performance Predictor is a web application
+        that will predict the performance viability of a given software
+        application across a variety of different environments and contexts.
+        Data visualization will be accomplished via a user-friendly dashboard
+        interface. The relevant metrics taken into account are throughput,
+        jitter, packet loss, and latency. Acceptable values of each metric are
+        defined by the related Service Level Agreements (SLA’s). Data will be
+        collected in real time over a range of 30 days and will be used to help
+        the users interpret and assess the performance of applications in
+        different contexts.This will assist in determining which parameters
+        could exceed performance constraints. The Application Performance
+        Predictor Engine will be developed on a backend of Java APIs using the
+        Spring framework and the data will be stored using MySQL. Development of
+        the frontend will use JavaScript with the Angular framework. The project
+        will utilize a CI/CD pipeline supported through Jenkins. The Agile
+        Methodology will be employed to drive the process forward, specifically
+        following the Scrum framework.
+      </p>
+    </div>
+  </body>
 </html>
